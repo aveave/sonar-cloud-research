@@ -20,6 +20,6 @@ jobs:
           java-version: 21
 
       - name: Build and analyze
-        run: ./mvnw -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=YOUR_PROJECT_KEY -Dsonar.organization=YOUR_ORG
+        run: ./mvnw -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=aveave_sonar-cloud-research -Dsonar.organization=sonarcloudresearch
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
