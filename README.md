@@ -33,5 +33,12 @@ Base URL: `/api/v1/employees`
 Before running scanner, set:
 - `SONAR_TOKEN`
 
+Training
+
+1. Show sonar-project.properties file and explain its content.
+2. Show sonarcloud.yaml file and explain its content.
+3. Show github configuration
+4. Automatic Analysis OFF
+
 Example:
 sonar-scanner
